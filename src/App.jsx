@@ -7,9 +7,9 @@ import Counter from './Components/Counter/Counter.jsx'
 function App() {
   return (
     <>
-       {/* <Home /> */}
-      {/* <Counter /> */}
-      <Products />
+        <Home /> 
+       <Counter /> 
+      {/* <Products />*/}
     </>
   )
 }
