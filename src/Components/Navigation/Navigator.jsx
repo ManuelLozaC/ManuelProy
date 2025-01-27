@@ -4,6 +4,7 @@ const Navigator = () => {
     return (
         <nav className='navbar'>
                 <Link to="/" className='nav-Link'>Home</Link>
+                <Link to="/login" className='nav-Link'>Login</Link>
                 <Link to="/counter"  className='nav-Link'>Counter</Link>
                 <Link to="/think"  className='nav-Link'>Think</Link>
                 <Link to="/products"  className='nav-Link'>Products</Link>
