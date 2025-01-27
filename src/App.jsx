@@ -8,7 +8,7 @@ function App() {
       <Navigator/>
       <Router/>
     </>
-  )
+  ) 
 }
 
 export default App
