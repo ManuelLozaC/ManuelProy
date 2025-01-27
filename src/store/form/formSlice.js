@@ -29,9 +29,9 @@ export const formSlice = createSlice({
     },
     submitForm: (state, action) => {
       const { username, email } = action.payload;
-      state.formData.username = username; // Actualizamos el username
-      state.formData.email = email; // Actualizamos el email
-      state.isSubmitted = true; // Cambiamos isSubmitted a true
+      state.formData.username = username; 
+      state.formData.email = email; 
+      state.isSubmitted = true; 
     },
   },
 });

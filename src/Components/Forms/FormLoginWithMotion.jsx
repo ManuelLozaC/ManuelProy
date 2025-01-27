@@ -13,9 +13,7 @@ const FormWithMotionAndHook = ({ titleForm }) => {
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
 
-  const [inputPassword, setInputPassword] = useState(''); // Estado local para el password ingresado
-  const [localUsername, setLocalUsername] = useState(''); // Estado local para el username
-  const [localEmail, setLocalEmail] = useState(''); // Estado local para el email
+  const [inputPassword, setInputPassword] = useState(''); 
 
   const [localFormData, handleChange, resetLocalForm] = useForm({
     username: '',
